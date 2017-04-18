@@ -1,0 +1,40 @@
+setFontFamily con_fontSystem
+setFontSize con_fontSystemSmall
+setScale #DEFAULTSCALE
+include default/chat
+
+if %MATCH_STATE < 4
+	include zoom
+	include help_message
+	include crosshair
+	include powerups
+
+	include adem/scores
+
+	include o9/health_armor
+	include o9/weaponlist
+	include o9/clock
+
+	include default/frags
+	include default/ammo_warning
+	//include default/stunned
+	include default/obituaries
+	include default/team_info
+	include default/minimap
+	include default/item_timers
+	include default/strafe
+	include default/speed
+	include default/fps
+	include default/chasing
+	include default/awards
+	include default/download
+	include default/net
+	include default/pointing
+	include default/keystate
+	include default/damage_indicator_screen
+
+	// Race
+	include default/race_records
+	include default/times
+endif
+

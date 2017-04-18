@@ -1,0 +1,35 @@
+if %WEAPON_ITEM
+
+	// custom icons
+	setCustomWeaponIcons #ITEM_GUNBLADE 1 gfx/o9/GB
+	setCustomWeaponIcons #ITEM_MACHINEGUN 1 gfx/o9/MG
+	setCustomWeaponIcons #ITEM_RIOTGUN 1 gfx/o9/RG
+	setCustomWeaponIcons #ITEM_GRENADE_LAUNCHER 1 gfx/o9/GL
+	setCustomWeaponIcons #ITEM_ROCKET_LAUNCHER 1 gfx/o9/RL
+	setCustomWeaponIcons #ITEM_PLASMAGUN 1 gfx/o9/PG
+	setCustomWeaponIcons #ITEM_LASERGUN 1 gfx/o9/LG
+	setCustomWeaponIcons #ITEM_ELECTROBOLT 1 gfx/o9/EB
+	setCustomWeaponIcons #ITEM_INSTAGUN 1 gfx/o9/IG
+	setCustomWeaponIcons #ITEM_GUNBLADE 0 gfx/o9/noGB
+	setCustomWeaponIcons #ITEM_MACHINEGUN 0 gfx/o9/noMG
+	setCustomWeaponIcons #ITEM_RIOTGUN 0 gfx/o9/noRG
+	setCustomWeaponIcons #ITEM_GRENADE_LAUNCHER 0 gfx/o9/noGL
+	setCustomWeaponIcons #ITEM_ROCKET_LAUNCHER 0 gfx/o9/noRL
+	setCustomWeaponIcons #ITEM_PLASMAGUN 0 gfx/o9/noPG
+	setCustomWeaponIcons #ITEM_LASERGUN 0 gfx/o9/noLG
+	setCustomWeaponIcons #ITEM_ELECTROBOLT 0 gfx/o9/noEB
+	setCustomWeaponIcons #ITEM_INSTAGUN 0 gfx/o9/noIG
+	setCustomWeaponSelect gfx/o9/select
+
+	// weapon
+	setAlign 1 2
+	setCursor #WIDTH / 2, #HEIGHT - 75
+	drawWeaponIcons 50 0 48 16
+
+	// ammo
+	setAlign 2 2
+
+	moveCursor 25 0
+	drawWeaponStrongAmmo 50 0 10
+
+endif
