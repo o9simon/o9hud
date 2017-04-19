@@ -1,7 +1,8 @@
 setFontFamily con_fontSystem
 setFontSize con_fontSystemSmall
 setScale #DEFAULTSCALE
-include default/chat
+
+include adem/chat
 
 if %MATCH_STATE < 4
 	include zoom
