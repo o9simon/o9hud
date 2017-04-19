@@ -8,7 +8,7 @@ Custom Warsow HUD
 ## Install
 1) Copy hud_o9.pk3 in your basewsw directory
 2) Start Warsow
-3) Open console and type /cg_clienthud o9
+3) Open console and type /cg_clienthud o9 and /cg_spechud o9
 
 ## Credits
 * adem
